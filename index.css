@@ -34,7 +34,7 @@ img{
     left: 0;
     z-index: 100;
     display: flex;
-    padding: 0;
+    padding: 0.5em;
     justify-content: space-between;
     align-content: center;
     background-color: var(--color-navbar);
@@ -45,9 +45,9 @@ img{
     font-size: 15px;
     text-decoration: none;
     font-family: Playfair Display;
-    align-self: center;
+    align-items: center;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     margin-left: 10px;
 }
 #hero header nav ul{
