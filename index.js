@@ -5,12 +5,19 @@ copyright.textContent = new Date().getFullYear();
 
 
 //Hero header nav About drop-down menu
-document.getElementById("main-drop").addEventListener("mouseenter", function (){
+function openNav(){
+
+    //document.getElementById("main-drop").addEventListener("mouseenter", function (){
     document.querySelector(".dropdown").style.display = "block";
-})
-document.getElementById("main-drop").addEventListener("mouseleave", function (){
-    document.querySelector(".dropdown").style.display = "none";
-})
+    //})
+}
+
+function closeNav(){
+
+    //document.getElementById("main-drop").addEventListener("mouseleave", function (){
+        document.querySelector(".dropdown").style.display = "none";
+    //})
+}
 
 //@media screens menu button activations
 
