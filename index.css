@@ -467,7 +467,7 @@ img{
         margin: 0;
     }
     #hero header nav{
-        padding: auto;
+        padding: 1em;
         display: flex;
         position: fixed;
     }
