@@ -21,11 +21,8 @@
                     <h1> H&P Farming Enterprice</h1>
                 </a>
                 <ul>
-                <div id="close-menu-btn" title="Close">
-                    <p>X</p>
-                </div>
                     <li title="HOME"><a href="#hero">HOME <i class="fa-solid fa-house"></i></a></li>
-                    <li id="main-drop" title="ABOUT" onclick="openNav()"><a ref="">ABOUT <i class="fa-solid fa-users"></i></a>
+                    <li id="main-drop" title="ABOUT" onclick="openDropDown()"><a ref="">ABOUT <i class="fa-solid fa-users"></i></a>
                         <div class="dropdown">
                             <ul>
                             <li title="CORPORATE OVERVIEW"><a href="#section-1" >CORPORATE OVERVIEW</a></li>
@@ -39,8 +36,8 @@
                     </li>
                     <li title="CONTACT"><a href="#section-6">CONTACT <i class="fa-solid fa-phone"></i></a></li>
                 </ul>
-                <div id="open-menu-btn" title="Menu">
-                    <img src="open-menu_4083576.png" alt="menu-button">
+                <div id="open-menu-btn" title="Menu" onclick="openNav()">
+                    <img id="navsvg" src="align-justify.svg" alt="menu-button">
                 </div>
             </nav>
         </header>
