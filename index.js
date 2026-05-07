@@ -16,6 +16,9 @@ function openDropDown(){
     }    
     //})
 }
+function closeDropDown(){
+    document.querySelector(".dropdown").style.display = "none";
+}
 
 /*function closeNav(){
 

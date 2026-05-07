@@ -64,7 +64,7 @@ img{
 }
 #hero header nav ul li a:hover{
     transition: all 0.4s ease-in-out;
-    border-radius: 1px;
+    border-radius: 10px;
     background: var(--color-buttonHover);
 }
 
@@ -75,6 +75,8 @@ img{
 #hero header nav #main-drop .dropdown{
     display:none;
     position:absolute;
+    margin-top: 20px;
+    border-radius: 10px;
     background: var(--color-navbar);
 }
 #hero header nav #main-drop .dropdown ul{
@@ -121,16 +123,20 @@ img{
     margin-top: 10px;
     font-size: 20px;
 }
-#hero main a button{
-    margin-top: 20px;
-    padding: 20px 30px;
+#hero main a, button{
+    padding: 10px 20px;
     border: none;
+    width: fit-content;
     color: var(--color-secondaryfont);
     border-radius: 15px;
     font-weight: bold;
     background: var(--color-button);
     transition: 0.2s ease;
     cursor: pointer;
+}
+#hero main a{
+    padding: 0px 0px;
+    margin-top: 20px;
 }
 #hero main a button:hover{
     background: var(--color-buttonHover);
